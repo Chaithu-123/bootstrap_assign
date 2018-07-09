@@ -1,3 +1,4 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
 body {
     background-color: lightgray;
 }
@@ -12,12 +13,17 @@ body {
     margin-bottom: 0px;
 }
 
-.row {
+.bg_snooker {
     background: url('../img/sec3_back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .jumbotron .container {
@@ -27,14 +33,17 @@ body {
     color: #FFFFCF;
 }
 
-.footer-copyright {
-    a {
-        color: snow;
-    }
-}
-
 .text {
     padding: 5rem;
 }
 
-@import 'node_modules//bootstrap/scss/bootstrap';
+.foot {
+    width: 100%;
+    overflow: hidden;
+}
+
+.foot {
+    a {
+        color: aliceblue;
+    }
+}
