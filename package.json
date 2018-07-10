@@ -17,5 +17,13 @@
     "popper.js": "^1.14.3"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "====================================================\r Author: CHAITANYA KUMAR Y\r ====================================================",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaithu-123/bootstrap_assign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chaithu-123/bootstrap_assign/issues"
+  },
+  "homepage": "https://github.com/Chaithu-123/bootstrap_assign#readme"
 }
