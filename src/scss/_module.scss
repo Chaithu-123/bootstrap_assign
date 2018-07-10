@@ -1,19 +1,19 @@
-.jumbotron {
-    background: url('../img/snookback.jpg') no-repeat center center fixed;
+@mixin bgimage_size($imagepath) {
+    background: url($imagepath) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.jumbotron {
+    @include bgimage_size('../img/snookback.jpg');
     height: 650px;
     margin-bottom: 0px;
 }
 
 .bg_snooker {
-    background: url('../img/sec3_back.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    @include bgimage_size('../img/sec3_back.jpg');
 }
 
 .jumbotron .container {
