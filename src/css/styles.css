@@ -6301,22 +6301,22 @@ body {
   background-size: cover;
   -o-background-size: cover; }
 
-.row {
-  margin-right: 0px;
-  margin-left: 0px; }
-
 .jumbotron .container {
   max-width: 40rem;
   background: black;
   padding: 4rem;
   color: #FFFFCF; }
 
-.text {
-  padding: 5rem; }
-
 .foot {
   width: 100%;
   overflow: hidden; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.text {
+  padding: 5rem; }
 
 .foot a {
   color: aliceblue; }
