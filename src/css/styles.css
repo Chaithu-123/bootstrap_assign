@@ -6285,6 +6285,15 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background-color: lightgray; }
 
+.bg_snooker .container .row p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  max-height: 80px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box; }
+
 .jumbotron {
   background: url("../img/snookback.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6293,6 +6302,8 @@ body {
   -o-background-size: cover;
   height: 650px;
   margin-bottom: 0px; }
+  .jumbotron .container {
+    padding: 1.5rem !important; }
 
 .bg_snooker {
   background: url("../img/sec3_back.jpg") no-repeat center center fixed;
