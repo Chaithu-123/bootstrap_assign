@@ -8,10 +8,10 @@
     <meta name="author" content="Chaitanya">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <title>Snookard</title>
 </head>
 
@@ -28,28 +28,26 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active font-weight-bold">
                         <a class="nav-link" href="#">Home
                         <span class="sr-only">(current)</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facilities And Prices</a>
+                    <li class="nav-item  ">
+                        <a class="nav-link font-weight-bold text-dark" href="#">Facilities</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                    <li class="nav-item  ">
+                        <a class="nav-link font-weight-bold text-dark" href="#">Gallery</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Membership</a>
+                    <li class="nav-item ">
+                        <a class="nav-link font-weight-bold text-dark" href="#">Membership</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Buy Accessories</a>
+                    <li class="nav-item ">
+                        <a class="nav-link font-weight-bold text-dark" href="#">Accessories</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Find Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  font-weight-bold text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About Us
                     </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -86,7 +84,7 @@
                 <strong>To know about more exiting offers click below.</strong>
             </p>
             <div class="lead">
-                <a class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#demo" href="#" role="button">
+                <a class="btn btn-primary btn-lg text-dark" data-toggle="collapse" data-target="#demo" href="#" role="button">
                     <strong>Offers</strong>
                 </a>
                 <div id="demo" class="collapse">
@@ -104,7 +102,7 @@
                     <p>The origin of snooker dates back to the latter half of the 19th century. In the 1870s, this was a popular activity amongst British Army officers stationed in India and several variations of the game were devised during this time. One
                         such variation originated in 1875. </p>
                     <p>
-                        <a class="btn btn-danger" href="#" role="button">View details »</a>
+                        <a class="btn btn-danger" href="#" role="button" data-toggle="modal" data-target="#snooker">View details »</a>
                     </p>
                 </div>
                 <div class="col-lg-4">
@@ -112,7 +110,7 @@
                     <p>Pro player David Alcaide at the World Pool Masters 2007 Pool is a cue sport played on a table with six pockets along the rails, into which balls are deposited. Some of the more well known variants of pool include eight-ball, blackball,
                         nine-ball, ten-ball, seven-ball, straight pool,straight poolstraight one-pocket, and bank pool. </p>
                     <p>
-                        <a class="btn btn-danger" href="#" role="button">View details »</a>
+                        <a class="btn btn-danger" href="#" role="button" data-toggle="modal" data-target="#pooltable">View details »</a>
                     </p>
                 </div>
                 <div class="col-lg-4">
@@ -120,7 +118,7 @@
                     <p>A French Bar Billiards table is around 6 x 3 feet and is similar in construction to a small Billiards table. Instead of pockets, holes are sunk into the table; 5 in a row across the far end of the table and three set in a triangle
                         pattern in the rear half of the table. A skittle is set up on a spot roughly in the centre of the table.</p>
                     <p>
-                        <a class="btn btn-danger" href="#" role="button">View details »</a>
+                        <a class="btn btn-danger" href="#" role="button" data-toggle="modal" data-target="#frenchtable">View details »</a>
                     </p>
                 </div>
             </div>
@@ -130,7 +128,7 @@
     <!-- <span class="display-4">Testimonials!!!</span> -->
 
 
-    <section class="card-group">
+    <section id="testimonials" class="card-group">
         <div class="container">
             <h2>Testimonials!!</h2>
             <div class="row">
@@ -308,11 +306,72 @@
 
         </div>
 
-
-
-
-
     </footer>
+
+
+    <!-- modals -->
+    <div class="modal fade" id="snooker" tabindex="-1" role="dialog" aria-labelledby="snooker" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="snookerModalLongTitle">Snooker</h5>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    The origin of snooker dates back to the latter half of the 19th century. In the 1870s, this was a popular activity amongst British Army officers stationed in India and several variations of the game were devised during this time. One such variation originated
+                    in 1875.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pooltable" tabindex="-1" role="dialog" aria-labelledby="pooltable" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="poolModalLongTitle">Pool Table</h5>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Pro player David Alcaide at the World Pool Masters 2007 Pool is a cue sport played on a table with six pockets along the rails, into which balls are deposited. Some of the more well known variants of pool include eight-ball, blackball, nine-ball, ten-ball,
+                    seven-ball, straight pool,straight poolstraight one-pocket, and bank pool.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="frenchtable" tabindex="-1" role="dialog" aria-labelledby="frenchtable" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="frenchModalLongTitle">French Table</h5>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    A French Bar Billiards table is around 6 x 3 feet and is similar in construction to a small Billiards table. Instead of pockets, holes are sunk into the table; 5 in a row across the far end of the table and three set in a triangle pattern in the rear
+                    half of the table. A skittle is set up on a spot roughly in the centre of the table.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/jquery.min.js "></script>
